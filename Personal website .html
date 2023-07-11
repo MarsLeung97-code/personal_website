@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title >Hello!Its really nice to see you here!</title>
+    <!-- /> This links to animate stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- This links to bootstrap stylesheet-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- This links to my own style sheet -->
+    <link rel="stylesheet" href="Styles.css"/>
+  </head>
+  <body>
+    <!--Here's some nav things copied from Bootstrap & a header-->
+  <div class="Top">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-family: Impact;">Mars Leung</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Option</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <br>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#grid-container">About me&my life</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/MarsLeung97-code" target="_blank">Github</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="mailto:worksublife@gmail.com">Email me</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Saying Hello-->
+    <div id="welcome">
+      <div>
+        <br>
+        <br>
+        <br>
+        <br>
+       <h1 class="animate__animated animate__rotateInDownLeft animate__delay-1s">Hello!! I'm Mars!</h1>
+       <h2 class="animate__animated animate__rotateInUpLeft animate__delay-2s">Frontend Developer</h4>
+       <h6 class="animate__animated animate__rotateInUpLeft  animate__delay-3s"><mark>(Not Yet btw)</mark></h6>
+       <div class="animate__animated animate__fadeInRightBig animate__fast	800ms">
+       <div class="avatar"> 
+        <img src="./img/c8xqola7.png" alt="MyFacebookAvatar">
+       </div>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <!--Here's some info about myself-->
+    <div id="grid-container">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="./img/Vet assistant.jpg" alt="job">
+        <div class="card-body">
+          <h5 class="card-title">Vet assistant</h5>
+          <p class="card-text">I work as a Vet assistant in 2018-2021.</p>
+          <a href="https://www.youtube.com/shorts/9biWC3pKzE0" target="_blank" class="btn btn-success">Dog is cute!</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="./img/whole.jpeg" alt="myLovelyCats">
+        <div class="card-body">
+          <h5 class="card-title">3 lovely cats!</h5>
+          <p class="card-text">[Here you can see these lovely cats,
+            I adopted them from at least three years ago.
+            Since i was work as a vet assistant from 2018-2021,
+            I gain a lot of chances to get in touch with dogs and cats,
+            learned about how to get along with them and taking care of them.]</p>
+          <a href="Cats.html" target="_blank"
+           class="btn btn-primary">Cats,The best!</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="./img/badminton.jpg" alt="badminton">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">[For now,
+            my favorite hobby are sports.Such as badminton.
+            Although I'm not really good at it,
+            it's still my favorite one.]</p>
+          <a href="https://www.youtube.com/shorts/1Z70Qhlgk24" target="_blank" class="btn btn-danger">BADminton</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="./img/Ramen.jpeg" alt="job2">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">[Recently I work as a ramen chef,
+            the best thing I had is my colleague willing to share some skills and teach me how to cook.]</p>
+          <a href="#" class="btn btn-primary">Ramen is good!</a>
+        </div>
+      </div>
+
+      --------
+      
+     
+   <!--Skills-->
+   <h1 class="skills">Skills for this website</h1>
+   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="./img/html css logo.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">html&css</h5>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">Good</a>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="card">
+  <div class="card-header">
+    Message for visiter.
+  </div>
+  <div id=footer class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Life is hard,but JavaScript is much HARDER to me now.</p>
+      <footer class="blockquote-footer">Someone famous in this world said so.</cite></footer>
+    </blockquote>
+  </div>
+</div>
+    <!--This is Bootstrap Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
